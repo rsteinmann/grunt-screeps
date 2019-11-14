@@ -1,0 +1,9 @@
+{
+    "DIR": "../screeps",
+    "IGNORE"  : [".git/**", "node_modules"],
+    "DEBOUNCE": 200,
+    "ACTIONS" : {
+        "SINGLE_CHANGE"  : "./update.sh",
+        "MULTIPLE_CHANGE": "./update.sh"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "grunt-screeps",
+  "version": "1.0.0",
+  "description": "Using grunt task runner to push screeps code",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-screeps": "^1.4.0",
+    "watchx": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "update": "grunt screeps",
+    "watch": "watchx watch.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
